@@ -1,4 +1,4 @@
-# Documentation for the __UNDEFINED__ keyboards
+# Documentation for the Eastern Canadian Inuktitut keyboards
 
 
 ## Layouts
