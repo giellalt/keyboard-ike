@@ -1,4 +1,4 @@
-# Keyboard layout(s) for __UNDEFINED__
+# Keyboard layout(s) for Eastern Canadian Inuktitut
 
 **Legend:**
 
