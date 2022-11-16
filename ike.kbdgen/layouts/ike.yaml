@@ -2,95 +2,62 @@ displayNames:
   ike: Eastern Canadian Inuktitut
   en: Eastern Canadian Inuktitut
 decimal: ','
-modes:
-  mobile:
-    default: |
-      ' 1 2 3 4 5 6 7 8 9 0 + ´
-        q w e r t y u i o p [ ]
-        a s d f g h j k l ; ' \
-      ` z x c v b n m , . -
-    shift: |
-      § ! " # $ % & / ( ) = ? `
-      Á Š E R T Ŧ U I O P Å Ŋ
-      A S D F G H J K L Ø Æ Đ
-      Ž Z Č C V B N M ; : _
-    caps: |
-      ᖕ ᑉ ᕐ ᒃ ᑦ ᖅ ᒻ ᓐ ᓪ ᔾ - ᒡ
-      ᖏ ᐃ ᕿ ᑭ ᑎ ᓯ ᒥ ᓂ ᓕ ᔨ ᒡ
-      ᖑ ᐅ ᖁ ᑯ ᑐ ᓱ ᒧ ᓄ ᓗ ; '
-      ᖓ ᐊ ᖃ ᑲ ᑕ ᓴ ᒪ , . ᔭ
-    alt: |
-      ' 1 2 3 4 5 6 7 8 9 0 + ´
-        ᒋ ᐱ ᕆ ᖕ ᙱ ᙳ ᙵ ᖤ ᖠ ᖦ 
-        ᒍ ᐳ ᕈ ᕕ ( ) ᔪ ᕗ ᖢ : : "
-      ˙ ᒐ ᐸ ᕋ ? ᕼ ᓇ ᓚ < > ᕙ
-    alt+shift: |
-      § ¡ ® ¥ ¢ \u{302} ¶ \ { } \u{30B} ¿ \u{300}
-      Q W É \u{30C} Þ Y \u{309} \u{31B} Œ \u{307} \u{30A} \u{308}
-      \u{304} № Ð ʔ \u{323} \u{328} \u{306} \u{303} \u{335} Ö Ä *
-      > ⁄ X \u{327} « » “ ” „ · —
-    caps+alt: |
-      ' © ™ £ € ˆ § | [ ] ˝ ± \u{301}
-      Q W É ˇ Þ Y ˀ ʼ Œ ˙ ˚ ¨
-      ¯ SS Ð ƒ . ˛ ˘ ˜ - Ö Ä @
-      < ÷ X ¸ ‹ › ‘ ’ ‚ … –
-    ctrl: |
-      0 1 2 3 4 5 6 7 8 9 0 \u{1F} =
-      \u{11} \u{17} \u{5} \u{12} \u{14} \u{19} \u{15} \u{9} \u{F} \u{10} \u{1B} \u{1D}
-      \u{1} \u{13} \u{4} \u{6} \u{7} \u{8} \u{A} \u{B} \u{C} ; ' \u{1C}
-      ` \u{1A} \u{18} \u{3} \u{16} \u{2} \u{E} \u{D} , . /
-  mac:
-    cmd: |
-      ' 1 2 3 4 5 6 7 8 9 0 + ´
-        q w e r t y u i o p [ ]
-        a s d f g h j k l ; ' \
-      ` z x c v b n m , . -
-    cmd+alt:
-      E00: €
-      E01: ©
-      E02: ™
-      E03: £
-      E04: €
-      E05: §
-      E07: '|'
-      E08: '['
-      E09: ']'
-      E10: ≈
-      E11: ±
-      E12: '`'
-      D01: •
-      D02: ','
-      D03: é
-      D05: ŧ
-      D06: µ
-      D07: ü
-      D08: ı
-      D09: œ
-      D10: þ
-      D11: ˙
-      D12: ˜
-      C01: ¯
-      C02: ß
-      C03: ð
-      C04: ƒ
-      C06: ħ
-      C07: ˝
-      C08: ª
-      C09: ł
-      C10: ö
-      C11: ä
-      C12: ''''
-      B00: ≤
-      B01: ÷
-      B02: đ
-      B03: ¸
-      B04: ‹
-      B05: ›
-      B06: ‘
-      B07: ’
-      B08: ‚
-      B09: …
-      B10: –
+macOS:
+  primary:
+    layers:
+      cmd: |
+        ' 1 2 3 4 5 6 7 8 9 0 + ´
+          q w e r t y u i o p [ ]
+          a s d f g h j k l ; ' \
+        ` z x c v b n m , . -
+      cmd+alt:
+        'E00': €
+        'E01': ©
+        'E02': ™
+        'E03': £
+        'E04': €
+        'E05': §
+        'E07': '|'
+        'E08': '['
+        'E09': ']'
+        'E10': ≈
+        'E11': ±
+        'E12': '`'
+        D01: •
+        D02: ','
+        D03: é
+        D05: ŧ
+        D06: µ
+        D07: ü
+        D08: ı
+        D09: œ
+        D10: þ
+        D11: ˙
+        D12: ˜
+        C01: ¯
+        C02: ß
+        C03: ð
+        C04: ƒ
+        C06: ħ
+        C07: ˝
+        C08: ª
+        C09: ł
+        C10: ö
+        C11: ä
+        C12: "'"
+        B00: ≤
+        B01: ÷
+        B02: đ
+        B03: ¸
+        B04: ‹
+        B05: ›
+        B06: ‘
+        B07: ’
+        B08: ‚
+        B09: …
+        B10: –
+  deadKeys:
+    cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
 transforms:
   '-':
     ' ': '-'
@@ -118,8 +85,8 @@ transforms:
     S: Ș
     t: ț
     T: Ț
-  .:
-    ' ': .
+  '.':
+    ' ': '.'
     a: ạ
     A: Ạ
     b: ḅ
@@ -252,22 +219,22 @@ transforms:
     G: Ḡ
     i: ī
     I: Ī
-    l: 'l\u{323}\u{304}'
-    L: 'L\u{323}\u{304}'
+    l: l\u{323}\u{304}
+    L: L\u{323}\u{304}
     o: ō
     O: Ō
-    r: 'r\u{323}\u{304}'
-    R: 'R\u{323}\u{304}'
-    s: 's\u{304}'
-    S: 'S\u{304}'
+    r: r\u{323}\u{304}
+    R: R\u{323}\u{304}
+    s: s\u{304}
+    S: S\u{304}
     u: ū
     U: Ū
     v: ǖ
     V: Ǖ
     'y': ȳ
     'Y': Ȳ
-    z: 'z\u{304}'
-    Z: 'Z\u{304}'
+    z: z\u{304}
+    Z: Z\u{304}
   ˘:
     ' ': ˘
     a: ă
@@ -339,7 +306,7 @@ transforms:
     o: ö
     O: Ö
     t: ẗ
-    T: 'T\u{308}'
+    T: T\u{308}
     u: ü
     U: Ü
     w: ẅ
@@ -352,16 +319,16 @@ transforms:
     ' ': ˚
     a: å
     A: Å
-    e: 'e\u{30A}'
-    E: 'E\u{30A}'
-    o: 'o\u{30A}'
-    O: 'O\u{30A}'
+    e: e\u{30A}
+    E: E\u{30A}
+    o: o\u{30A}
+    O: O\u{30A}
     u: ů
     U: Ů
     w: ẘ
-    W: 'W\u{30A}'
+    W: W\u{30A}
     'y': ẙ
-    'Y': 'Y\u{30A}'
+    'Y': Y\u{30A}
   ˝:
     ' ': ˝
     o: ő
@@ -396,8 +363,8 @@ transforms:
     T: Ţ
     ŧ: ț
     Ŧ: Ț
-    z: 'z\u{327}'
-    Z: 'Z\u{327}'
+    z: z\u{327}
+    Z: Z\u{327}
   ˛:
     ' ': ˛
     a: ą
@@ -426,10 +393,10 @@ transforms:
     I: Î
     j: ĵ
     J: Ĵ
-    m: 'm\u{302}'
-    M: 'M\u{302}'
-    'n': 'n\u{302}'
-    'N': 'N\u{302}'
+    m: m\u{302}
+    M: M\u{302}
+    'n': n\u{302}
+    'N': N\u{302}
     o: ô
     O: Ô
     s: ŝ
@@ -459,7 +426,7 @@ transforms:
     i: ǐ
     I: Ǐ
     j: ǰ
-    J: 'J\u{30C}'
+    J: J\u{30C}
     k: ǩ
     K: Ǩ
     l: ľ
@@ -478,8 +445,8 @@ transforms:
     U: Ǔ
     v: ǚ
     V: Ǚ
-    x: 'ʒ\u{30C}'
-    X: 'Ʒ\u{30C}'
+    x: ʒ\u{30C}
+    X: Ʒ\u{30C}
     z: ž
     Z: Ž
   ƒ:
@@ -592,28 +559,7 @@ longpress:
   a: æ ä å
   č: x
   o: ø ö
-space:
-  mobile:
-    caps: '\u{A0}'
-    alt: '\u{A0}'
-    alt+shift: '\u{A0}'
-    caps+alt: '\u{A0}'
-    cmd+alt: '\u{A0}'
-strings:
+keyNames:
   space: gaska
   return: linnjámolsun
-deadKeys:
-  mobile:
-    default: [´]
-    shift: ['`']
-    caps: [´]
-    alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-    alt+shift: [ʔ, №]
-    caps+alt: ['-', ., ¨, ¯, ¸, ƒ, ʼ, ˀ, ˆ, ˇ, ˘, ˙, ˚, ˛, ˜, ˝]
-  mac:
-    cmd+alt: [',', ¯, ¸, ƒ, ˙, ˜, ˝]
-targets:
-  ios:
-    legacyName: ike_keyboards
-  android:
-    legacyName: ike_keyboards
+
