@@ -47,6 +47,12 @@ macOS:
           • , é ŧ µ & ü ı œ þ ˙ ˜
           ¯ ß ð ƒ ħ ˝ º ª ł ö ä '
         ≤ ÷ đ ¸ ‹ › ‘ ’ ‚ … –
+  space:
+    caps: \u{A0}
+    alt: \u{A0}
+    alt+shift: \u{A0}
+    cmd+alt: \u{A0}
+    alt+caps: \u{A0}
   deadKeys:
     cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
 
