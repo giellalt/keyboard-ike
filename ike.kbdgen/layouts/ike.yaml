@@ -1,7 +1,9 @@
 displayNames:
   ike: Eastern Canadian Inuktitut
   en: Eastern Canadian Inuktitut
-decimal: ','
+
+decimal: '.'
+
 macOS:
   primary:
     layers:
@@ -58,6 +60,7 @@ macOS:
         B10: –
   deadKeys:
     cmd+alt: [',', '¯', '¸', 'ƒ', '˙', '˜', '˝']
+
 transforms:
   '-':
     ' ': '-'
@@ -550,6 +553,7 @@ transforms:
     O: Ơ
     u: ư
     U: Ư
+
 longpress:
   Á: Q
   A: Æ Ä Å
@@ -559,6 +563,7 @@ longpress:
   a: æ ä å
   č: x
   o: ø ö
+
 keyNames:
   space: gaska
   return: linnjámolsun
